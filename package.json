@@ -1,0 +1,27 @@
+{
+  "name": "buddy-ui",
+  "version": "0.0.1",
+  "description": "Codebuddy UI Components",
+  "main": "index.js",
+  "repository": "https://github.com/codebuddy-pvt-ltd/buddy-ui.git",
+  "author": "Sohan Dutta <sohan@codebuddy.co>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "src/*"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "commitizen": "^4.3.0",
+    "commitlint-config-gitmoji": "^2.2.10",
+    "cz-customizable": "^7.0.0"
+  },
+  "scripts": {
+    "cm": "cz"
+  }
+}
