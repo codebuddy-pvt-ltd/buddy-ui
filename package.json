@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "src/*"
+    "packages/*"
   ],
   "config": {
     "commitizen": {
@@ -17,9 +17,12 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
     "commitizen": "^4.3.0",
     "commitlint-config-gitmoji": "^2.2.10",
-    "cz-customizable": "^7.0.0"
+    "cz-customizable": "^7.0.0",
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "cm": "cz"

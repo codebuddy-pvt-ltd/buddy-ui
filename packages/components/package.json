@@ -1,0 +1,17 @@
+{
+  "name": "@buddy-ui/components",
+  "version": "0.0.1",
+  "description": "Codebuddy's Buddy UI",
+  "main": "index.js",
+  "repository": "https://github.com/codebuddy-pvt-ltd/buddy-ui.git",
+  "author": "Sohan Dutta <sohan@codebuddy.co>",
+  "license": "MIT",
+  "dependencies": {
+    "@mantine/core": "^5.10.2",
+    "@mantine/hooks": "^5.10.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
