@@ -25,3 +25,5 @@ docs/.cache
 docs/public
 storybook-static
 .next
+dist
+.rollup.cache

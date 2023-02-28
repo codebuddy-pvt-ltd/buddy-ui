@@ -1,11 +1,8 @@
 import React from "react";
-import { Button as MantineButton, ButtonProps as MantineButtonProps } from "@mantine/core";
+import { Button as MantineButton } from "@mantine/core";
+import { ButtonProps as Props } from "./Button.types";
 
-export interface ButtonProps extends MantineButtonProps {
-  onClick?: () => void;
-}
-
-const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({ children, ...props }, ref) => {
+const Button = React.forwardRef<HTMLButtonElement, Props>(({ children, ...props }, ref) => {
   return (
     <MantineButton ref={ref} {...props}>
       {children}
@@ -15,4 +12,4 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({ children, ...
 
 Button.displayName = "Button";
 
-export { Button };
+export default Button;
