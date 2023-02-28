@@ -1,5 +1,5 @@
 {
-  "name": "@buddy-ui/components",
+  "name": "@codebuddy/ui",
   "version": "0.0.1",
   "description": "Codebuddy's Buddy UI",
   "main": "dist/cjs/index.js",
@@ -21,5 +21,12 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
-  }
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "bugs": {
+    "url": "https://github.com/codebuddy-pvt-ltd/buddy-ui.git/issues"
+  },
+  "homepage": "https://github.com/codebuddy-pvt-ltd/buddy-ui.git#README"
 }
